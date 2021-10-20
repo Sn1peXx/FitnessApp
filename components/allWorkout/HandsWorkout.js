@@ -31,6 +31,7 @@ const style = StyleSheet.create({
     img: {
         width: 350,
         height: 350,
+        marginLeft: 10
     },
     item: {
         flex: 1,

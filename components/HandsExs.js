@@ -19,6 +19,182 @@ export default function HandsExs({ navigation }) {
             desc: "Этапы выполнения: Поставьте ноги на ширине плеч и слегка согните их в коленях. Опустите руки вниз так, чтобы они расположились над бедрами; сгибая руки только в локтях, поднимите штангу к верхней части груди. Подсказка: Не качайте бедрами и спиной во время выполнения этого упражнения.",
             key: "2", 
         },
+        {
+            nameExs: "Сгибания рук лежа на спине",
+            img: require("../assets/img/hands/IMG_1398.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728742.gif"),
+            desc: "Медленно поднимайте руки до уровня груди, затем поверните гантели, скрутив ладони так, чтобы предплечья коснулись бицепсов.",
+            key: "3", 
+        },
+        {
+            nameExs: "Сгибания рук обратным хватом с поворотом",
+            img: require("../assets/img/hands/IMG_1400.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728813.gif"),
+            desc: "Сгибайте руки вверх, поворачивая запястья так, чтобы они смотрели вниз, когда гантели находятся у груди.",
+            key: "4", 
+        },
+        {
+            nameExs: "Сгибания рук обратным хватом со штангой",
+            img: require("../assets/img/hands/IMG_1402.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728789.gif"),
+            desc: "Это упражнение не только создает форсированную тягу для бицепсов, но также прорабатывает предплечья. Подсказка: Не меняйте положения локтей или плеч, выполняя это упражнение.",
+            key: "5", 
+        },
+        {
+            nameExs: "Сгибания рук обратным хватом с гантелями",
+            img: require("../assets/img/hands/IMG_1404.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728769.gif"),
+            desc: "Это упражнение является вариантом, противоположным упражнению на сгибание, в котором прорабатываются все мышцы рук.",
+            key: "6", 
+        },
+        {
+            nameExs: "Сгибания рук с кривым грифом",
+            img: require("../assets/img/hands/IMG_1406.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728857.gif"),
+            desc: "Подсказка: Обопритесь о стену или другую опору, если есть проблемы с сохранением устойчивости при махах.",
+            key: "7", 
+        },
+        {
+            nameExs: "Сгибания рук со штангой сидя",
+            img: require("../assets/img/hands/IMG_1410.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728911.gif"),
+            desc: "Упражнения на концентрацию ограничивают диапазон движения, за счет чего увеличивается его эффективность. В этом варианте используется штанга. Подсказка: Не меняйте положения тела, пока руки выполняют упражнение.",
+            key: "8", 
+        },
+        {
+            nameExs: "Сгибания рук с олимпийским грифом",
+            img: require("../assets/img/hands/IMG_1412.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728951.gif"),
+            desc: "Подсказка: Если штанга с олимпийским грифом слишком тяжела для вас, воспользуйтесь штангой с более легким весом.",
+            key: "9", 
+        },
+        {
+            nameExs: "Сгибания рук с упором в бедро",
+            img: require("../assets/img/hands/IMG_1414.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728972.gif"),
+            desc: "Подсказка: Все тело, кроме руки, которая выполняет упражнение, держите неподвижным.",
+            key: "10", 
+        },
+        {
+            nameExs: "Хаммер",
+            img: require("../assets/img/hands/IMG_1416.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728993.gif"),
+            desc: "В этом упражнении используются движения, имитирующие удар (вверх и вниз), чтобы изолировать бицепсы. Подсказка: При выполнении этого упражнения не поворачивайте запястий.",
+            key: "11", 
+        },
+        {
+            nameExs: "Алмазные отжимания",
+            img: require("../assets/img/hands/IMG_1418.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729018.gif"),
+            desc: "Примите упор лежа, как для отжиманий. Руки расположите так, чтобы образовалась форма алмаза между указательными и большими пальцами.",
+            key: "12", 
+        },
+        {
+            nameExs: "Обратные отжимания от стульев",
+            img: require("../assets/img/hands/IMG_1420.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729047.gif"),
+            desc: "Держа спину ровной, а плечи расслабленными, медленно опустите корпус до тех пор, пока ягодицы не могут находитсья слегка над полом, локти согнуты под углом 100 градусов",
+            key: "13", 
+        },
+        {
+            nameExs: "Жим лежа узким хватом",
+            img: require("../assets/img/hands/IMG_1422.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729070.gif"),
+            desc: "Подсказка: Не отталкивайте штангу резко от груди. Выполняйте движение медленно и сосредоточено.",
+            key: "14", 
+        },
+        {
+            nameExs: "Классическое отведение рук со штангой",
+            img: require("../assets/img/hands/IMG_1424.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729091.gif"),
+            desc: "Сгибая только локти, медленно опускайте и поднимайте штангу.",
+            key: "15", 
+        },
+        {
+            nameExs: "Обратная планка",
+            img: require("../assets/img/hands/IMG_1426.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729123.gif"),
+            width: 300,
+            desc: "Поместите руки за спиной и приподнимите корпус, держа тело прямо. Удерживайте данное положение в течение произвольного периода времени.",
+            key: "16", 
+        },
+        {
+            nameExs: "Отведение рук с гантелью за голову",
+            img: require("../assets/img/hands/IMG_1429.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729144.gif"),
+            desc: "Когда поднимите руки и плечи до упора, медленно опускайте гантели за голову дугообразным движением.",
+            key: "17", 
+        },
+        {
+            nameExs: "Отжимания на предплечиях",
+            img: require("../assets/img/hands/IMG_1431.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729173.gif"),
+            desc: "Начните упражнение в положении традиционных отжиманий, руки под плечами. Удерживая левую руку прямой, опуститесь на предплечье правой руки.",
+            key: "18", 
+        },
+        {
+            nameExs: "Поочередное разгибание рук над лицом",
+            img: require("../assets/img/hands/IMG_1433.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729203.gif"),
+            desc: "Подсказка: Не выполняйте это упражнение, если ваши руки устали, поскольку вы можете уронить вес на лицо.",
+            key: "19", 
+        },
+        {
+            nameExs: "Поднятия блина",
+            img: require("../assets/img/hands/IMG_1396.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728701.gif"),
+            desc: "Этапы выполнения: Поставьте ноги на ширине плеч и слегка согните их в коленях, мышцы пресса подтяните. Возьмите в руки блин захватом сверху вниз (ладонями вниз) в положении стрелок, показывающих время от 11 до 13 часов.",
+            key: "21", 
+        },
+        {
+            nameExs: "Французский жим за головой",
+            img: require("../assets/img/hands/IMG_1439.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729279.gif"),
+            desc: "В исходном положении возьмите гантель двумя руками так, чтобы ладони смотрели вверх, и поднимите вес над головой. Опустите гантели по дуге из положения над головой в положение за спиной.",
+            key: "22", 
+        },
+        {
+            nameExs: "Французский жим за головой стоя",
+            img: require("../assets/img/hands/IMG_1441.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729300.gif"),
+            desc: "Возьмите прямую или изогнутую штангу, руки на ширине 15–20 см, ладони вверх. Поднимите штангу над головой и медленно опускайте её дугообразным движением за голову по направлению к спине.",
+            key: "23", 
+        },
+        {
+            nameExs: "Французский жим с гантелей из-за головы",
+            img: require("../assets/img/hands/IMG_1443.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729327.gif"),
+            desc: "Подсказка: Положите свободную руку на грудь, чтобы сохранять равновесие при выполнении этого упражнения.",
+            key: "24", 
+        },
+        {
+            nameExs: "Кистевое скручивание одной рукой сидя",
+            img: require("../assets/img/hands/IMG_1445.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729379.gif"),
+            desc: "Подсказка: Не пытайтесь резко дергать вес вверх, движения должны быть плавными и неторопливыми.",
+            key: "25", 
+        },
+        {
+            nameExs: "Кистевой скручивание штаги ладонями вверх",
+            img: require("../assets/img/hands/IMG_1447.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729398.gif"),
+            desc: "Подсказка: Не пытайтесь резко вздернуть вес вверх, движения должны быть плавными и неторопливыми.",
+            key: "26", 
+        },
+        {
+            nameExs: "Обратное концентрированное сгибание",
+            img: require("../assets/img/hands/IMG_1449.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729422.gif"),
+            desc: "Подсказка: Не раскачивайте руку вперёд-назад, так как это может травмировать локоть. Наоборот, движения должны быть плавными, контролируемыми. Не раскачивайте корпусом, чтобы помочь себе поднять вес вверх; чтобы исключить возможность возникновения момента инерции, корпус должен быть неподвижным.",
+            key: "27", 
+        },
+        {
+            nameExs: "Обратное сгибание рук со штангой стоя",
+            img: require("../assets/img/hands/IMG_1451.jpg"),
+            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634729443.gif"),
+            desc: "Подсказка: В этом упражнении единственным двигающимся суставом должен быть локоть. Не вздергивайте вес резко вверх, а поднимайте медленно, контролируя темп движения, чтобы избежать появления инерции.",
+            key: "28", 
+        },
     ]);
 
     return (
@@ -28,7 +204,9 @@ export default function HandsExs({ navigation }) {
             </View>
 
             <FlatList
-                data={hands}
+                data={hands} 
+                showsVerticalScrollIndicator={false}
+            showsHorizontalScrollIndicator={false}
                 renderItem={({ item }) => (
                     <TouchableOpacity
                         style={{ marginTop: 20, height: 90 }}
