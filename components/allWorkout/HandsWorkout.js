@@ -20,7 +20,7 @@ export default function HandsWorkout({ route }) {
                             />
                         </View>
                     </Text>
-                    <Text style={style.desc}>{route.params.desc}</Text>
+                    <Text style={gStyle.desc}>{route.params.desc}</Text>
                 </View>
             </TouchableOpacity>
         </View>
@@ -55,11 +55,5 @@ const style = StyleSheet.create({
         paddingRight: 20,
         flex: 1,
     },
-    desc: {
-        marginTop: -10,
-        fontSize: 22,
-        fontWeight: "300",
-        height: 300,
-        lineHeight: 30
-    },
+    
 });

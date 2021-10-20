@@ -24,7 +24,7 @@ export default function CrossExs({ navigation }) {
     return (
         <View style={gStyle.SecMain}>
             <View>
-                <Text style={gStyle.secTitle}>Упражнения на корпус</Text>
+                <Text style={gStyle.secTitle}>Упражнения для ног</Text>
             </View>
 
             <FlatList

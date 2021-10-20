@@ -20,7 +20,7 @@ export default function CrossWorkout({ route }) {
                             />
                         </View>
                     </Text>
-                    <Text style={style.desc}>{route.params.desc}</Text>
+                    <Text style={gStyle.desc}>{route.params.desc}</Text>
                 </View>
             </TouchableOpacity>
         </View>

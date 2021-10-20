@@ -13,7 +13,7 @@ export default function GymnasticsExs({navigation}) {
     return (
         <View style={gStyle.SecMain}>
             <View>
-                <Text style={gStyle.secTitle}>Упражнения для ног</Text>
+                <Text style={gStyle.secTitle}>Растяжка</Text>
             </View>
 
             <FlatList data={gymn} renderItem={({item}) => (
