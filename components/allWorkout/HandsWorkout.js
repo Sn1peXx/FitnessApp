@@ -7,7 +7,7 @@ export default function HandsWorkout({ route }) {
     return (
         <View style={style.main}>
             <View>
-                <Text style={gStyle.secTitle}>{route.params.nameExs}</Text>
+                <Text style={gStyle.secTitle}>{route.params.nameExs}{route.params.nameType}</Text>
             </View>
 
             <TouchableOpacity style={{ marginTop: 20, height: 90 }}>
@@ -29,9 +29,9 @@ export default function HandsWorkout({ route }) {
 
 const style = StyleSheet.create({
     img: {
-        width: 350,
-        height: 350,
-        marginLeft: 10
+        width: '100%',
+        height: 400,
+        marginLeft: 10,
     },
     item: {
         flex: 1,
@@ -40,6 +40,7 @@ const style = StyleSheet.create({
     block: {
         flex: 1,
         flexDirection: "row",
+
     },
     text: {
         fontSize: 20,
@@ -52,9 +53,7 @@ const style = StyleSheet.create({
     main: {
         backgroundColor: "#E9E6EA",
         paddingTop: 15,
-        paddingLeft: 20,
         paddingRight: 20,
         flex: 1,
     },
-    
 });

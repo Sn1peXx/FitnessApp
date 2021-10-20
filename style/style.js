@@ -34,11 +34,12 @@ export const gStyle= StyleSheet.create({
         flex: 1
     },
     desc: {
-        marginTop: -10,
+        marginTop: 10,
         fontSize: 21,
         fontWeight: "300",
         height: 300,
-        lineHeight: 30
+        lineHeight: 30,
+        paddingLeft: 20
     }
     
 });
