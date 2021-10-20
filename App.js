@@ -6,8 +6,9 @@ import MainStack from "./navigation";
 
 const fonts = () =>
     Font.loadAsync({
-        "mt-bold": require("./assets/fonts/Montserrat-Bold.ttf"),
-        "mt-light": require("./assets/fonts/Montserrat-Light.ttf"),
+        "mt-bold": require("./assets/fonts/RobotoCondensed-Bold.ttf"),
+        "mt-light": require("./assets/fonts/RobotoCondensed-Light.ttf"),
+        "mt-regular": require('./assets/fonts/RobotoCondensed-Regular.ttf')
     });
 
 export default function App() {

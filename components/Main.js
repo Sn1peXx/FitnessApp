@@ -1,27 +1,34 @@
 import React from "react";
 import { gStyle } from "../style/style";
-import { View, Text, Image, StyleSheet, Button } from "react-native";
+import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 
 
-export default function Main() {
+export default function Main({navigation}) {
+    
     return (
         <View style={gStyle.main}>
             <Text style={gStyle.title}>Добро пожаловать 👋</Text>
-            <Text style={{fontSize: 23}}>Категории</Text>
+            <Text style={{fontSize: 25, fontWeight: '400'}}>Категории</Text>
             <View style={style.df}>
-                <View style={style.blueBorder}>
-                    <Image style={style.img} source={require('../assets/img/mainWindow/firstMan.png')} />
-                </View>
-                <View style={style.blueBorder}>
-                    <Image style={style.img} source={require('../assets/img/mainWindow/secMan.png')} />
-                </View>
-                <View style={style.blueBorder}>
-                    <Image style={style.img} source={require('../assets/img/mainWindow/thirdMan.png')} />
-                </View>
+
+                <TouchableOpacity style={style.blueBorder} onPress={() => navigation.navigate('HandsExs')}>
+                    <Image style={[style.img, style.bigImg]} source={require('../assets/img/mainWindow/zyro-image(2).png')} />
+                </TouchableOpacity>
+
+                <TouchableOpacity style={style.blueBorder} onPress={() => navigation.navigate('GymnasticsExs')}>
+                    <Image style={[style.img, style.bigImg]} source={require('../assets/img/mainWindow/zyro-image(3).png')} />
+                </TouchableOpacity>
+
+                <TouchableOpacity style={style.blueBorder} onPress={() => navigation.navigate('CrossExs')}>
+                    <Image style={[style.img, style.bigImg]} source={require('../assets/img/mainWindow/zyro-image(1).png')} />
+                </TouchableOpacity>
+
             </View>
+
             <View>
-                <Text style={{fontSize: 28}}>Тренировки</Text>
-                <View style={[style.block, {backgroundColor: '#bce5ff'}]}>
+                <Text style={{fontSize: 25, fontWeight: '400'}}>Тренировки</Text>
+
+                <TouchableOpacity style={[style.block, {backgroundColor: '#bce5ff'}]}>
                     <View style={style.blockMain}>
                         <Text style={gStyle.traiName}>Силовая {"\n"}тренировка</Text>
                         <View style={style.viewTime}>
@@ -29,8 +36,9 @@ export default function Main() {
                         </View>
                     </View>
                     <Image style={style.imgTrening} source={require('../assets/img/mainWindow/bodybuilding_PNG93.png')} />
-                </View>
-                <View style={[style.block, {backgroundColor: '#cebaf9'}]}>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={[style.block, {backgroundColor: '#cebaf9'}]}>
                     <View style={style.blockMain}>
                         <Text style={gStyle.traiName}>Мощные {"\n"}грудные</Text>
                         <View style={style.viewTime}>
@@ -38,13 +46,15 @@ export default function Main() {
                         </View>
                     </View>
                     <Image style={style.imgTrening} source={require('../assets/img/mainWindow/man-dumbbell.png')} />
-                </View>
-                <View style={[style.littleBlock, {backgroundColor: '#d9dfff'}]}>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={[style.littleBlock, {backgroundColor: '#d9dfff'}]}>
                     <View style={style.book}>
-                        <Text style={{fontSize: 25}}>Мои тренировки </Text>
+                        <Text style={{fontSize: 25, fontWeight: '400'}}>Мои тренировки </Text>
                         <Image style={{width: 32, marginTop: 3}} source={require('../assets/img/mainWindow/outline_book_black_24dp.png')}/>
                     </View>
-                </View>
+                </TouchableOpacity>
+
             </View>
         </View>
     );
@@ -108,11 +118,17 @@ const style = StyleSheet.create({
     img: {
         position: 'relative',
         top: -14,
-        left: -10
+        left: -10,
+        width: '130%',
+        resizeMode: 'contain'
     },
     df: {
         flexDirection: 'row',
         marginTop: 20,
         marginBottom: 40
+    },
+    bigImg: {
+        position: 'relative',
+        top: -49
     }
 }); 
