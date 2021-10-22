@@ -3,7 +3,7 @@ import { gStyle } from "../../style/style";
 import { View, Text, Image, StyleSheet } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
-export default function GymnWorkout({ route }) {
+export default function PowerWorkout({ route }) {
     return (
         <View style={style.main}>
             <View>
@@ -13,14 +13,14 @@ export default function GymnWorkout({ route }) {
             <TouchableOpacity style={{ marginTop: 20, height: 90 }}>
                 <View>
                     <Text>
-                        <View style={style.block}>
+                    <View style={style.block}>
                             <Image
                                 style={style.img}
                                 source={route.params.gif}
                             />
                         </View>
                     </Text>
-                    <Text style={[gStyle.desc, {marginTop: -15}]}>{route.params.desc}</Text>
+                    <Text style={gStyle.desc}>{route.params.desc}</Text>
                 </View>
             </TouchableOpacity>
         </View>

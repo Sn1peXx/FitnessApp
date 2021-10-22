@@ -28,27 +28,27 @@ export default function Main({navigation}) {
             <View>
                 <Text style={{fontSize: 25, fontWeight: '400'}}>Тренировки</Text>
 
-                <TouchableOpacity style={[style.block, {backgroundColor: '#bce5ff'}]}>
+                <TouchableOpacity style={[style.block, {backgroundColor: '#bce5ff'}]} onPress={() => navigation.navigate('FirstWorkout')}>
                     <View style={style.blockMain}>
                         <Text style={gStyle.traiName}>Силовая {"\n"}тренировка</Text>
                         <View style={style.viewTime}>
-                            <Text style={style.textTime}>▶ 15 мин</Text>
+                            <Text style={style.textTime}>▶ 28 мин</Text>
                         </View>
                     </View>
                     <Image style={style.imgTrening} source={require('../assets/img/mainWindow/bodybuilding_PNG93.png')} />
                 </TouchableOpacity>
 
-                <TouchableOpacity style={[style.block, {backgroundColor: '#cebaf9'}]}>
+                <TouchableOpacity style={[style.block, {backgroundColor: '#cebaf9'}]} onPress={() => navigation.navigate('SecWorkout')}>
                     <View style={style.blockMain}>
                         <Text style={gStyle.traiName}>Мощные {"\n"}грудные</Text>
                         <View style={style.viewTime}>
-                            <Text style={style.textTime}>▶ 25 мин</Text>
+                            <Text style={style.textTime}>▶ 40 мин</Text>
                         </View>
                     </View>
-                    <Image style={style.imgTrening} source={require('../assets/img/mainWindow/man-dumbbell.png')} />
+                    <Image style={style.imgTrening} source={require('../assets/img/mainWindow/man-dumbbell.png')}/>
                 </TouchableOpacity>
 
-                <TouchableOpacity style={[style.littleBlock, {backgroundColor: '#d9dfff'}]}>
+                <TouchableOpacity style={[style.littleBlock, {backgroundColor: '#d9dfff'}]} onPress={() => navigation.navigate('MyTraining')}>
                     <View style={style.book}>
                         <Text style={{fontSize: 25, fontWeight: '400'}}>Мои тренировки </Text>
                         <Image style={{width: 32, marginTop: 3}} source={require('../assets/img/mainWindow/outline_book_black_24dp.png')}/>

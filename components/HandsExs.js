@@ -52,14 +52,14 @@ export default function HandsExs({ navigation }) {
             desc: "Это упражнение является вариантом, противоположным упражнению на сгибание, в котором прорабатываются все мышцы рук.",
             key: "6", 
         },
-        {
-            nameExs: "Сгибания рук с кривым грифом",
-            nameType: ' (Руки)',
-            img: require("../assets/img/hands/IMG_1406.jpg"),
-            gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728857.gif"),
-            desc: "Подсказка: Обопритесь о стену или другую опору, если есть проблемы с сохранением устойчивости при махах.",
-            key: "7", 
-        },
+        // {
+        //     nameExs: "Сгибания рук с кривым грифом",
+        //     nameType: ' (Руки)',
+        //     img: require("../assets/img/hands/IMG_1406.jpg"),
+        //     gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728857.gif"),
+        //     desc: "Подсказка: Обопритесь о стену или другую опору, если есть проблемы с сохранением устойчивости при махах.",
+        //     key: "7", 
+        // },
         {
             nameExs: "Сгибания рук со штангой сидя",
             nameType: ' (Руки)',
@@ -159,6 +159,7 @@ export default function HandsExs({ navigation }) {
         },
         {
             nameExs: "Поднятия блина",
+            nameType: ' (Руки)',
             img: require("../assets/img/hands/IMG_1396.jpg"),
             gif: require("../assets/img/hands/handsGif/RPReplay_Final1634728701.gif"),
             desc: "Этапы выполнения: Поставьте ноги на ширине плеч и слегка согните их в коленях, мышцы пресса подтяните. Возьмите в руки блин захватом сверху вниз (ладонями вниз) в положении стрелок, показывающих время от 11 до 13 часов.",
@@ -301,7 +302,7 @@ export default function HandsExs({ navigation }) {
             key: "38", 
         },
         {
-            nameExs: "Пулловер за голову лежа",
+            nameExs: " Пулловер за голову лежа",
             nameType: ' (Грудь)',
             img: require("../assets/img/hands/IMG_1480.jpg"),
             gif: require("../assets/img/hands/handsGif/RPReplay_Final1634744376.gif"),
@@ -386,8 +387,9 @@ const style = StyleSheet.create({
     text: {
         fontSize: 20,
         fontWeight: "300",
-        marginLeft: 20,
-        marginTop: 20,
+        paddingLeft: 20,
+        width: 10,
+        marginTop: 5,
         width: 290,
         flexWrap: "wrap",
     },
